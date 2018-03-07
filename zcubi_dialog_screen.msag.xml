@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZCUBI_DIALOG_SCREEN</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_DIALOG_SCREEN</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Product Number Not Found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_DIALOG_SCREEN</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Ad-Hoc Entry Created Successfully</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_DIALOG_SCREEN</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Error Creating Ad-Hoc Entry</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_DIALOG_SCREEN</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Product &amp;1 with UOM &amp;2 does not exist in worklist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_DIALOG_SCREEN</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Product &amp;1 does not exist in worklist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_DIALOG_SCREEN</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Product &amp;1 not available for adding to worklist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_DIALOG_SCREEN</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Storage bin &amp;1 is not valid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_DIALOG_SCREEN</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Error occurred trying to update the Cubiscan record</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_DIALOG_SCREEN</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Data cannot be saved as it exceeds tolerance limits</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_DIALOG_SCREEN</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>&amp;1 Case = &amp;2 Eaches</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_DIALOG_SCREEN</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Warehouse number &amp;1 is not valid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_DIALOG_SCREEN</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Param ZCUBISCAN_ECC_RFC_DEST is not maintained in STVARV</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_DIALOG_SCREEN</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Product &amp;1 with UOM &amp;2 already exists in the worklist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_DIALOG_SCREEN</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Error occurred trying to remove the Cubiscan record</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_DIALOG_SCREEN</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>&amp;1 Carton = &amp;2 Eaches</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_DIALOG_SCREEN</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Product &amp;1 with UOM &amp;2 exists in the review report and cannot be added</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_DIALOG_SCREEN</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Product and UOM are required</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_DIALOG_SCREEN</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>No message contents received from the Cubiscan device</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

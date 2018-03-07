@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_CUBI_WRKLST</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Cubiscan Worklist Interface</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_CUBI_WRKLST</CLSNAME>
+     <CMPNAME>CREATE_ITEM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Creates a new worklist item.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_CUBI_WRKLST</CLSNAME>
+     <CMPNAME>DELETE_ITEM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Deletes worklist item(s)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_CUBI_WRKLST</CLSNAME>
+     <CMPNAME>QUERY_HEADERS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Query Worklist Headers</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_CUBI_WRKLST</CLSNAME>
+     <CMPNAME>QUERY_ITEMS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Query Worklist Items</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_CUBI_WRKLST</CLSNAME>
+     <CMPNAME>QUERY_PRODUCTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Query products to add to the worklist.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_CUBI_WRKLST</CLSNAME>
+     <CMPNAME>QUERY_REVIEW_ITEMS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Query Worklist Review Items</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_CUBI_WRKLST</CLSNAME>
+     <CMPNAME>QUERY_UOMS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Querys the UOM&apos;s for a given product.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_CUBI_WRKLST</CLSNAME>
+     <CMPNAME>QUERY_UOMS_IN_WORKLIST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Query the UOM&apos;s for a product that exist in the worklist</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_CUBI_WRKLST</CLSNAME>
+     <CMPNAME>QUERY_UOMS_NOT_IN_WORKLIST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Query the UOM&apos;s for a product that are not in the worklist</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_CUBI_WRKLST</CLSNAME>
+     <CMPNAME>UPDATE_ITEM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Updates and/or Approves a worklist item.</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

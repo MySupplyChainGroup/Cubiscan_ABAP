@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Cubiscan Integration</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZCUBI_INTEGRATIONTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZCUBI_INTEGRATION</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZCUBI_POLL_CUBISCAN</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Setup Polling of the Cubiscan Device</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_WAREHOUSE_NUMBER</PARAMETER>
+       <TYP>/SCWM/LGNUM</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_DEVICE_NAME</PARAMETER>
+       <TYP>CHAR40</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_PRODUCT</PARAMETER>
+       <TYP>/SAPAPO/MATNR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_UOM</PARAMETER>
+       <TYP>/SAPAPO/MEINS</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_WAREHOUSE_NUMBER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Warehouse Number</STEXT>
+       <INDEX> 001</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_DEVICE_NAME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Device Name</STEXT>
+       <INDEX> 002</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_PRODUCT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Product Number</STEXT>
+       <INDEX> 003</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_UOM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Base Unit of Measure</STEXT>
+       <INDEX> 004</INDEX>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

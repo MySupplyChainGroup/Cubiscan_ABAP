@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>BADI_IMPL</TOOL>
+   <SHORTTEXT>MSCG Cubiscan BADI Example Implementation</SHORTTEXT>
+   <SPOT_NAME>ZMSCG_CUBISCAN</SPOT_NAME>
+   <IMPL>
+    <ENH_BADI_IMPL_DATA>
+     <SPOT_NAME>ZMSCG_CUBISCAN</SPOT_NAME>
+     <BADI_NAME>ZBADI_MSCG_CUBISCAN</BADI_NAME>
+     <IMPL_NAME>ZBADI_MSCG_CUBISCAN_EXAMPLE</IMPL_NAME>
+     <IMPL_CLASS>ZCL_CUBI_BADI_EXAMPLE</IMPL_CLASS>
+     <ACTIVE>X</ACTIVE>
+     <IMPL_SHORTTEXT>Implementation: Cubiscan BADI</IMPL_SHORTTEXT>
+     <IMPL_SHORTTEXT_ID>005056AA055D1ED7BACFBD78CD6580EE</IMPL_SHORTTEXT_ID>
+     <LOCKED_IN_CUSTOMIZING>X</LOCKED_IN_CUSTOMIZING>
+    </ENH_BADI_IMPL_DATA>
+   </IMPL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

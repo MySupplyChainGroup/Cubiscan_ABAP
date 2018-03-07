@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_CUBI_WRKLIST_ABSTRACT</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Abstract Worklist Class</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <CLSABSTRCT>X</CLSABSTRCT>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CUBI_WRKLIST_ABSTRACT</CLSNAME>
+     <CMPNAME>ALL_UOMS_ARE_MEASURED</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Determine if all UOM&apos;s are measured for the given product.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CUBI_WRKLIST_ABSTRACT</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CUBI_WRKLIST_ABSTRACT</CLSNAME>
+     <CMPNAME>GET_SUPPORTED_UOMS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get supported UOM&apos;s from Configuration</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CUBI_WRKLIST_ABSTRACT</CLSNAME>
+     <CMPNAME>GET_UOMS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Querys UOM&apos;s for a given product.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CUBI_WRKLIST_ABSTRACT</CLSNAME>
+     <CMPNAME>GT_CONFIGURATION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>MSCG Configuration Table Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CUBI_WRKLIST_ABSTRACT</CLSNAME>
+     <CMPNAME>UPDATE_ECC</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Updates the ECC System with scan data.</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

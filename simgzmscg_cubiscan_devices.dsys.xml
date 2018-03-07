@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DSYS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DSYS>
+    <HEAD>
+     <TDOBJECT>DSYS</TDOBJECT>
+     <TDNAME>SIMGZMSCG_CUBISCAN_DEVICES</TDNAME>
+     <TDID>HY</TDID>
+     <TDSPRAS>E</TDSPRAS>
+     <TDFORM>S_DOCU_SHOW</TDFORM>
+     <TDSTYLE>S_DOCUS1</TDSTYLE>
+     <TDVERSION>00001</TDVERSION>
+     <TDLINESIZE>072</TDLINESIZE>
+    </HEAD>
+    <LINES>
+     <TLINE>
+      <TDFORMAT>UT</TDFORMAT>
+      <TDLINE>&amp;USE&amp;</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>AS</TDFORMAT>
+      <TDLINE>Used to define the Cubiscan devices.  A Cubiscan device itself will</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDLINE>consist mainly of a TCP/IP address and a port number.  We require the</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDLINE>configuration to be defined on a warehouse level and must also include a</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDLINE>device name, device description, a polling period (amount of time it</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDLINE>will wait for a response from the device) and a handler class name.</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>AS</TDFORMAT>
+      <TDLINE>The handler class name has two options:</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>AS</TDFORMAT>
+      <TDLINE>ZCL_CUBI_TCP_SCAN_HANDLER - This is the standard TCP/IP socket</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDLINE>connection handler.</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>AS</TDFORMAT>
+      <TDLINE>ZCL_CUBI_AMC_SCAN_HANDLER - This is the handler class utilized for the</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDLINE>SAP GUI based emulation.</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>UT</TDFORMAT>
+      <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>AS</TDFORMAT>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>UT</TDFORMAT>
+      <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>AS</TDFORMAT>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>UT</TDFORMAT>
+      <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>AS</TDFORMAT>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>UT</TDFORMAT>
+      <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>AS</TDFORMAT>
+     </TLINE>
+    </LINES>
+   </DSYS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

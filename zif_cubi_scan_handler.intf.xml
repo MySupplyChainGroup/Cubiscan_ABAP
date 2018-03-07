@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_CUBI_SCAN_HANDLER</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Cubiscan Scan Handler Interface</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_CUBI_SCAN_HANDLER</CLSNAME>
+     <CMPNAME>CONNECT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Opens a connection to the datasource of the Cubiscan Device</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_CUBI_SCAN_HANDLER</CLSNAME>
+     <CMPNAME>DISCONNECT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Disconnects from the datasource of the Cubiscan Device</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_CUBI_SCAN_HANDLER</CLSNAME>
+     <CMPNAME>GET_GATE_MEASURE_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Gets the Gate Measure Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_CUBI_SCAN_HANDLER</CLSNAME>
+     <CMPNAME>START_POLLING</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Poll for Cubiscan Data</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

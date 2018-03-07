@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZCUBI_MESSAGES</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_MESSAGES</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Failed to create worklist entry.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_MESSAGES</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Field &amp;1 is required.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_MESSAGES</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Product &amp;1 and UOM &amp;2 not found.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_MESSAGES</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Filter parameter &amp;1 was not supplied and is required.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_MESSAGES</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Error opening the TCP socket connection to Cubiscan device &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_MESSAGES</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Error closing the TCP socket connection for Cubiscan device &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_MESSAGES</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Timeout waiting for message from Cubiscan device &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_MESSAGES</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Error receiving message from Cubiscan device &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_MESSAGES</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Error: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_MESSAGES</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>ECC system successfully updated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_MESSAGES</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Configuration param ECC_RFC_DEST is not maintained</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_MESSAGES</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Entry for product &amp;1 and UOM &amp;2 successfully updated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_MESSAGES</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Entry for product &amp;1 and UOM &amp;2 successfully deleted</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_MESSAGES</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Error sending outbound message for Cubiscan device &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_MESSAGES</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Error opening the AMC connection for Cubiscan emulator, device &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_MESSAGES</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Error closing the AMC connection for Cubiscan emulator, device &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_MESSAGES</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Timeout waiting for message from Cubiscan emulator, device &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_MESSAGES</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Background function triggered for warehouse &amp;1 and device &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_MESSAGES</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Error creating Cubiscan listener object, warehouse &amp;1 and device &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_MESSAGES</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Lower limit tolerance exception</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_MESSAGES</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Upper limit tolerance exception</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_MESSAGES</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Configuration param ECC_RFC_NAME is not maintained</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_MESSAGES</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Worklist record &amp;1 &amp;2 &amp;3 does not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_MESSAGES</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Failed to create worklist entry for product &amp;1 and UOM &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_MESSAGES</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Worklist entry for product &amp;1 and UOM &amp;2 already exists.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_MESSAGES</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Entry for product &amp;1 and UOM &amp;2 successfully created</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_MESSAGES</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Measurement UOM Mismatch</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_MESSAGES</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>No measurement UOM defined</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_MESSAGES</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>Update for product &amp;1 and UOM &amp;2 failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_MESSAGES</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>Worklist deletion failed for product &amp;1 and UOM &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_MESSAGES</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>Worklist entry deleted for product &amp;1 and UOM &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCUBI_MESSAGES</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>No worklist entries found for deletion</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>
