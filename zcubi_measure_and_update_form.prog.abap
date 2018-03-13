@@ -302,8 +302,10 @@ FORM set_and_initialize_warehouse.
       OTHERS          = 0.
 
   IF zcubi_cubiscan_data-cubiscan_device IS INITIAL.
-    READ TABLE lt_list_values ASSIGNING <lfs_value> INDEX 1.
-    zcubi_cubiscan_data-cubiscan_device = <lfs_value>-key.
+    IF lines( lt_list_values ) GT 0.
+      READ TABLE lt_list_values ASSIGNING <lfs_value> INDEX 1.
+      zcubi_cubiscan_data-cubiscan_device = <lfs_value>-key.
+    ENDIF.
   ENDIF.
 ENDFORM.
 
